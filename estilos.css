@@ -12,3 +12,31 @@
 .nav-link:hover{
     color: brown !important;
 }
+.main-bg{
+    background-image: url(Imagenes/DSC08388.png)!important;
+    height: 750px;
+    width: 600px;
+   background-size: cover;
+   background-position: right;
+ 
+}
+.texto-1{
+    background-color: rgba(201, 38, 26, 0.178);
+    color: bisque;
+    text-shadow: 0 0 10px black;
+}
+.btn-primary{
+    background-color: rgba(165, 42, 42, 0.842) !important;
+    border-style: none !important;
+    font-size: 40px !important;
+
+}
+
+.btn-primary:hover{
+    color: rgba(0, 0, 0, 0.616) !important;
+}
+.bottonuwu{
+    display: flex;
+    justify-content: center;
+    padding: 400px
+}
