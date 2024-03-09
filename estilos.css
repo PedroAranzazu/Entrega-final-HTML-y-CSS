@@ -1,0 +1,14 @@
+.collapse{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-link{
+    color: rgb(255, 208, 0) !important;
+    font-size: 30px !important;
+    margin-right: 30px;
+    text-shadow: 0 0 10px black;
+}
+.nav-link:hover{
+    color: brown !important;
+}
