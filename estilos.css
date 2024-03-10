@@ -14,7 +14,7 @@
 }
 .main-bg{
     background-image: url(Imagenes/DSC08388.png)!important;
-    height: 750px;
+    height: 800px;
     width: 600px;
    background-size: cover;
    background-position: right;
@@ -38,5 +38,49 @@
 .bottonuwu{
     display: flex;
     justify-content: center;
-    padding: 400px
+    padding: 400px;
+
+    
 }
+.Titulo-prom{
+    background-color: rgba(165, 42, 42, 0.918);
+    background-size: auto;
+    font-size: 100px !important;
+ 
+}
+.Fotos-promociones{
+    width: 500px !important;
+    height: 500px !important;
+    background-color: antiquewhite;
+}
+.carousel-item .img{
+    max-width: 45% !important;
+ 
+
+}
+/* Estilos para carrusel en pantalla completa */
+@media (min-width: 992px) {
+    .carousel {
+        width: 70%;
+      height: 150vh; /* Ajusta la altura según tus necesidades */
+
+    }
+  }
+  
+  /* Estilos generales */
+  .carousel {
+    width: 50%; /* Carrusel toma todo el ancho disponible */
+  }
+  
+  .carousel-inner {
+    height: 100%; /* Ajusta la altura según tus necesidades */
+  }
+  
+  .carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+
+  }
