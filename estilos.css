@@ -21,7 +21,7 @@
  
 }
 .texto-1{
-    background-color: rgba(201, 38, 26, 0.178);
+    background-color: rgba(240, 29, 14, 0.178);
     color: bisque;
     text-shadow: 0 0 10px black;
 }
@@ -43,9 +43,9 @@
     
 }
 .Titulo-prom{
-    background-color: rgba(165, 42, 42, 0.918);
+    background-color: rgba(170, 42, 42, 0.918);
     background-size: auto;
-    font-size: 100px !important;
+    font-size: 75px !important;
  
 }
 .Fotos-promociones{
@@ -56,12 +56,13 @@
 .carousel-item .img{
     max-width: 45% !important;
  
+ 
 
 }
 /* Estilos para carrusel en pantalla completa */
 @media (min-width: 992px) {
     .carousel {
-        width: 70%;
+        width: 50%;
       height: 150vh; /* Ajusta la altura según tus necesidades */
 
     }
@@ -82,5 +83,51 @@
     height: 100%;
   }
 
+#footer-all{
+    background-color: rgb(0, 0, 0);
+    font-size: 40px;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    background-size: 200px !important;
+}
+.footer i{
+    padding-left: 10px;
+}
 
-  }
+.main-bg2{
+    background-image: url(Imagenes/Artflores.png);
+    height: 100vh;
+    width: 700px;
+    background-size: cover;
+    background-position: right;
+}
+#texto-3{
+  background-color: rgb(134, 52, 52);
+  font-size: 44px;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+
+#Ventajas{
+    background-color: rgb(92, 4, 4);
+    background-size: auto;
+}
+
+.op1{
+    background-color: antiquewhite;
+    border-radius: 84px;
+    padding: 65px;
+    margin-inline-start: auto;
+    width: 100%;
+    height: 100%;
+}
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+    .op1 {
+        padding: 20px; /* Reducir el padding para dispositivos móviles */
+        margin-bottom: 20px; /* Agregar margen inferior para separar los elementos */
+        border-radius: 0; /* Eliminar el redondeo de los bordes */
+    }
