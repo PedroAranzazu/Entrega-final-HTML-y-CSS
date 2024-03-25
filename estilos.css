@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* Index */
 .collapse{
     display: flex;
     justify-content: flex-end;
@@ -66,7 +66,7 @@
 .footer i{
     padding-left: 10px;
 }
-
+/* Historia */
 .main-bg2{
     background-image: url(Imagenes/Artflores.png);
     height: 100vh;
@@ -100,7 +100,7 @@
 .bghistoria{
     background-color: rgb(43, 15, 15);
 }
-
+/* Videos */
 .contenedor-videos{
      background-color: brown;
 }
@@ -115,7 +115,7 @@
     padding: 60px;
 
 }
-
+/* Contacto */
 .section2{
     display: flex !important;
     justify-content: center !important;
@@ -126,5 +126,4 @@
     background-size: cover;
     background-position: right;
     
-
 }
